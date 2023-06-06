@@ -68,3 +68,23 @@ span{
 a{
     text-decoration: none;
 }
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    .header h1 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .header ul li img {
+        height: 25px;
+    }
+
+    .main input,
+    .main button {
+        font-size: 14px;
+    }
+}
